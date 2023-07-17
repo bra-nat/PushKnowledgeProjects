@@ -1,8 +1,8 @@
-import "./button.styles.scss";
 
-const Button = ({text, classes, onClick}) => {
+const Button = ({text="click me", icon='', classes, onClick}) => {
+
   return (
-        <button onClick={onClick} className={classes}>{text}</button>
+        <button onClick={onClick} className={classes}>{icon} {text}</button>
   )
 }
 
