@@ -1,0 +1,13 @@
+.randomize-color-container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        gap: .5rem;
+        margin-top: 4rem;
+    }
+}
