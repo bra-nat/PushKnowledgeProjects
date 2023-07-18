@@ -8,7 +8,8 @@ import LightAndDarkMode from './projects/light-and-dark-mode-app/light-and-dark-
 // import Testimonial from './projects/testimonial app/testimonial.component';
 // import RandommizeColor from './projects/randomize-color app/randomize-color.component';
 
-import { ThemeProvider } from './context/theme-context/theme-context';
+// import { ThemeProvider } from './context/theme-context/theme-context';
+import SlideToUnlock from './projects/slide-to-unlock/SlideToUnlock';
 
 function App() {
   return (
@@ -24,9 +25,11 @@ function App() {
       {/* <Alert /> */}
       
       {/* <TemperatureController /> */}
-    <ThemeProvider>
+    {/* <ThemeProvider>
       <LightAndDarkMode />
-    </ThemeProvider>
+    </ThemeProvider> */}
+
+    <SlideToUnlock />
       
     </div>
   );
