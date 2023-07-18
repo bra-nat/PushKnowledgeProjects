@@ -2,6 +2,7 @@
 // import Alert from './projects/alert app/alert-app.component';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import HiddenSearchBar from './projects/hidden-search-bar-app/hidden-search-bar.component';
 // import TemperatureController from './projects/temperature-controller/temperaturecontroller.component';
 // import LightAndDarkMode from './projects/light-and-dark-mode-app/light-and-dark-mode.component';
 // import LikePhotoApp from './projects/like photo app/like-photo.component';
@@ -11,7 +12,7 @@ import './App.css';
 // import { ThemeProvider } from './context/theme-context/theme-context';
 // import SlideToUnlock from './projects/slide-to-unlock/SlideToUnlock';
 
-import SliderApp from './projects/slider-app/slider-app';
+// import SliderApp from './projects/slider-app/slider-app';
 
 
 function App() {
@@ -34,7 +35,9 @@ function App() {
 
     {/* <SlideToUnlock /> */}
 
-    <SliderApp />
+    {/* <SliderApp /> */}
+
+    <HiddenSearchBar />
       
     </div>
   );
