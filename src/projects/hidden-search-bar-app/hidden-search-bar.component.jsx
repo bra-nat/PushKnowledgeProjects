@@ -26,7 +26,7 @@ const HiddenSearchBar = () => {
     borderBottom: `1px solid ${uiProps.borderBottomColor}`,
     fontSize: "1.3rem",
     color: "#eee",
-    boxShadow: "0px 55px 60px -15px rgba(0,0,0, .75",
+    boxShadow: "0px 55px 60px -15px rgba(0,0,0, .75)",
     opacity: uiProps.opacity,
     transitions: "all .3s ease",
   };

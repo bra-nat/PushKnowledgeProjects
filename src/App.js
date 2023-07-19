@@ -1,8 +1,9 @@
 // import EsignatureApp from "./projects/e-signature-app/e-signature.component"
 // import Alert from './projects/alert app/alert-app.component';
-import 'bootstrap/dist/css/bootstrap.css';
-import './App.css';
-import HiddenSearchBar from './projects/hidden-search-bar-app/hidden-search-bar.component';
+import "bootstrap/dist/css/bootstrap.css";
+import "./App.css";
+import MagicPopup from "./projects/magic-popu-app/magic-popup.component";
+// import HiddenSearchBar from './projects/hidden-search-bar-app/hidden-search-bar.component';
 // import TemperatureController from './projects/temperature-controller/temperaturecontroller.component';
 // import LightAndDarkMode from './projects/light-and-dark-mode-app/light-and-dark-mode.component';
 // import LikePhotoApp from './projects/like photo app/like-photo.component';
@@ -14,31 +15,31 @@ import HiddenSearchBar from './projects/hidden-search-bar-app/hidden-search-bar.
 
 // import SliderApp from './projects/slider-app/slider-app';
 
-
 function App() {
   return (
     <div className="App">
       {/* <EsignatureApp /> */}
 
       {/* <RandommizeColor /> */}
-      
+
       {/* <LikePhotoApp /> */}
 
       {/* <Testimonial /> */}
 
       {/* <Alert /> */}
-      
+
       {/* <TemperatureController /> */}
-    {/* <ThemeProvider>
+      {/* <ThemeProvider>
       <LightAndDarkMode />
     </ThemeProvider> */}
 
-    {/* <SlideToUnlock /> */}
+      {/* <SlideToUnlock /> */}
 
-    {/* <SliderApp /> */}
+      {/* <SliderApp /> */}
 
-    <HiddenSearchBar />
-      
+      {/* <HiddenSearchBar /> */}
+
+      <MagicPopup />
     </div>
   );
 }
