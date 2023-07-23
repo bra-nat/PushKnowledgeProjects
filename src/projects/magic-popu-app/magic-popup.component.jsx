@@ -49,7 +49,7 @@ useEffect(() => {
         <Popup
           type={"alert-success"}
           title={"Time Triggered Popup"}
-          alertClass={"alert-close p-primary"}
+          alertClass={"alert-close p-info"}
           text={"This popup was triggered by a delay"}
           handleClose={(setWarnTrigger)}
           trigger={warnTrigger}
