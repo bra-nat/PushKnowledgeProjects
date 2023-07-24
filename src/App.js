@@ -2,7 +2,8 @@
 // import Alert from './projects/alert app/alert-app.component';
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
-import NoteApp from "./projects/note-app/note-app.component";
+import ResponsiveNav from "./projects/responsive-nav-app/responsive-nav.component";
+// import NoteApp from "./projects/note-app/note-app.component";
 // import MagicPopup from "./projects/magic-popu-app/magic-popup.component";
 // import ProgressBarApp from "./projects/progress-bar-app/progress-bar-app.component";
 // import DialogBox from "./projects/dialog-box/dialog-box.comonent";
@@ -48,7 +49,9 @@ function App() {
 
       {/* <DialogBox /> */}
 
-      <NoteApp />
+      {/* <NoteApp /> */}
+
+      <ResponsiveNav />
       
     </div>
   );
