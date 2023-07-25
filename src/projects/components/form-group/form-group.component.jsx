@@ -14,7 +14,7 @@ const FormGroup = ({
 }) => {
   return (
     <div className="form-group ">
-      <label className="fw-bold">{labelText}</label>
+      <label className="fw-bold text-start">{labelText}</label>
       <input
         type={inputType}
         placeholder={placeholder}

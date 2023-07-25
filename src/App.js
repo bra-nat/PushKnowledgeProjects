@@ -2,7 +2,8 @@
 // import Alert from './projects/alert app/alert-app.component';
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
-import TextAnimationApp from "./projects/text-animation-app/text-animation.component";
+import CompoundInterestRateCalc from "./projects/compound-interest-rate-calculator/compound-interest-rate-calc.component";
+// import TextAnimationApp from "./projects/text-animation-app/text-animation.component";
 // import ResponsiveNav from "./projects/responsive-nav-app/responsive-nav.component";
 // import NoteApp from "./projects/note-app/note-app.component";
 // import MagicPopup from "./projects/magic-popu-app/magic-popup.component";
@@ -54,8 +55,10 @@ function App() {
 
       {/* <ResponsiveNav /> */}
 
-      <TextAnimationApp />
+      {/* <TextAnimationApp /> */}
       
+      <CompoundInterestRateCalc />
+
     </div>
   );
 }

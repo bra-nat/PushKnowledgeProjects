@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import TextAnimation from "../components/text-animation/text-animation.component";
 import Button from "../components/button/button.component";
 import FormGroup from "../components/form-group/form-group.component";
 import AnimatedText from "react-animated-text-content";
@@ -44,7 +43,7 @@ useEffect(() => {
           onClick={handleClear}
         />
       </form>
-      <TextAnimation />
+      
       {animatedText && (
         <AnimatedText
           type="char"
