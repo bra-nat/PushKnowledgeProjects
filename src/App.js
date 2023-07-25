@@ -3,6 +3,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 import CompoundInterestRateCalc from "./projects/compound-interest-rate-calculator/compound-interest-rate-calc.component";
+import TaskTracker from "./projects/task-tracker-app/task-tracker.component";
 // import TextAnimationApp from "./projects/text-animation-app/text-animation.component";
 // import ResponsiveNav from "./projects/responsive-nav-app/responsive-nav.component";
 // import NoteApp from "./projects/note-app/note-app.component";
@@ -57,7 +58,9 @@ function App() {
 
       {/* <TextAnimationApp /> */}
       
-      <CompoundInterestRateCalc />
+      {/* <CompoundInterestRateCalc /> */}
+
+      <TaskTracker />
 
     </div>
   );
