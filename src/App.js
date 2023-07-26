@@ -2,8 +2,9 @@
 // import Alert from './projects/alert app/alert-app.component';
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
-import CompoundInterestRateCalc from "./projects/compound-interest-rate-calculator/compound-interest-rate-calc.component";
-import TaskTracker from "./projects/task-tracker-app/task-tracker.component";
+// import CompoundInterestRateCalc from "./projects/compound-interest-rate-calculator/compound-interest-rate-calc.component";
+// import TaskTracker from "./projects/task-tracker-app/task-tracker.component";
+import CardGameUI from "./projects/card-game-app/card-game-ui.component";
 // import TextAnimationApp from "./projects/text-animation-app/text-animation.component";
 // import ResponsiveNav from "./projects/responsive-nav-app/responsive-nav.component";
 // import NoteApp from "./projects/note-app/note-app.component";
@@ -60,7 +61,9 @@ function App() {
       
       {/* <CompoundInterestRateCalc /> */}
 
-      <TaskTracker />
+      {/* <TaskTracker /> */}
+
+      <CardGameUI />
 
     </div>
   );
